@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AgeCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>AgeCalculator</h1>
+        <div class="content">
+            <label>Enter your birth date: </label><br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <button onclick="calculate()">Calculate</button>
+            <p id="result" style="margin-top: 10px"></p>
+        </div>
+
+    </main>
+    <script src="/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.7.1/build/global/luxon.min.js"></script>
+
+</body>
+</html>
